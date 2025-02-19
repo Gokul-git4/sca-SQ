@@ -56,5 +56,5 @@ response = ec2.run_instances(
 )
 
 instance_id = response["Instances"][0]["InstanceId"]
-print(f"🚨 EC2 Instance Created: {instance_id}")
-print("🔓 Private key saved as 'insecure_key.pem' (HIGHLY UNSAFE)")
+print(f" EC2 Instance Created: {instance_id}")
+print(" Private key saved as 'insecure_key.pem' (HIGHLY UNSAFE)")
