@@ -30,7 +30,7 @@ sudo apt install -y python3.6 python3-pip
 echo 'export DB_PASSWORD={ENV_VARS["DB_PASSWORD"]}' >> /etc/profile
 echo 'export API_KEY={ENV_VARS["API_KEY"]}' >> /etc/profile
 echo 'export DEBUG_MODE={ENV_VARS["DEBUG_MODE"]}' >> /etc/profile
-echo '{user_command}' | bash  # 🚨 RCE: Executes Unsanitized User Input
+echo '{user_command}' | bash  # RCE: Executes Unsanitized User Input
 source /etc/profile
 """
 
