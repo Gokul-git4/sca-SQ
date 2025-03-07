@@ -10,6 +10,7 @@ AMI_ID = "ami-0c55b159cbfafe1f0"  # Ubuntu 18.04 AMI
 INSTANCE_TYPE = "t2.micro"
 KEY_NAME = "test-key"  # Ensure this key exists in AWS
 SECURITY_GROUP = "default"
+KEY = /root/awspca1.pem
 
 # Hardcoded Environment Variables
 ENV_VARS = {
