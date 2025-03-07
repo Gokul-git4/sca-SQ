@@ -5,7 +5,7 @@ AWS_ACCESS_KEY = "AKIATESTACCESSKEY1234"
 AWS_SECRET_KEY = "testSecretKey1234567890abcdefg"
 REGION = "us-east-1"
 
-# Hardcoded EC2 Configuration
+# Hardcoded EC2 Config
 AMI_ID = "ami-0c55b159cbfafe1f0"  # Ubuntu 18.04 AMI
 INSTANCE_TYPE = "t2.micro"
 KEY_NAME = "test-key"  # Ensure this key exists in AWS
