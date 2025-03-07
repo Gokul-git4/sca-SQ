@@ -1,6 +1,6 @@
 import boto3
 
-# Hardcoded AWS Credentials (For Testing Only!)
+# Hardcoded AWS Credentials 
 AWS_ACCESS_KEY = "AKIATESTACCESSKEY1234"
 AWS_SECRET_KEY = "testSecretKey1234567890abcdefg"
 REGION = "us-east-1"
