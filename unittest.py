@@ -14,7 +14,7 @@ class TestEC2Launch(unittest.TestCase):
             "Instances": [{"InstanceId": "i-1234567890abcdef0"}]
         }
 
-        # Import and run EC2 launch code
+        # Import and run EC2 launch
         from my_script import ec2
         response = ec2.run_instances(
             ImageId="ami-0c55b159cbfafe1f0",
